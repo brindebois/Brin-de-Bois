@@ -1,0 +1,188 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bijoux Bois </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #fff8f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #a36f4f;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        nav {
+            margin-top: 0.5rem;
+        }
+
+            nav a {
+                color: white;
+                text-decoration: none;
+                margin: 0 1rem;
+                font-weight: bold;
+            }
+
+        main {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        section {
+            margin-bottom: 3rem;
+        }
+
+        h2 {
+            border-bottom: 2px solid #a36f4f;
+            padding-bottom: 0.5rem;
+        }
+
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+        }
+
+        .product {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 280px;
+            box-shadow: 0 0 5px #ccc;
+            padding: 1rem;
+            text-align: center;
+        }
+
+            .product img {
+                max-width: 100%;
+                border-radius: 8px;
+            }
+
+            .product h3 {
+                margin: 0.5rem 0;
+            }
+
+            .product p {
+                font-size: 0.9rem;
+                color: #666;
+            }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #a36f4f;
+            color: white;
+        }
+
+        @media(max-width: 600px) {
+            .products {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .product {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Bijoux en Bois & Cuir</h1>
+        <nav>
+            <a href="#boucles">Boucles d'oreilles</a>
+            <a href="#pendents">Pendentifs</a>
+            <a href="#cuir">Produits en cuir</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="boucles">
+            <h2>Boucles d'oreilles en bois </h2>
+            <div class="products">
+                <article class="product">
+                    <img src="boucle1.PNG" alt="Boucles d'oreilles formes géométriques" />
+                    <h3>Formes géométriques</h3>
+                    <p>Légères et élégantes, découpées au laser dans du bois naturel.</p>
+                    <p><strong>Prix :</strong> 25 €</p>
+                </article>
+                <article class="product">
+                    <img src="boucle2.jpg" alt="Boucles d'oreilles feuilles" />
+                    <h3>Motif feuilles</h3>
+                    <p>Inspiration nature, finition soignée et légère.</p>
+                    <p><strong>Prix :</strong> 2800 €</p>
+                </article>
+                <article class="product">
+                    <img src="boucle3.PNG" alt="Boucles d'oreilles formes géométriques" />
+                    <h3>Formes géométriques</h3>
+                    <p>Légères et élégantes, découpées au laser dans du bois naturel.</p>
+                    <p><strong>Prix :</strong> 25 €</p>
+                </article>
+                <article class="product">
+                    <img src="boucle4.PNG" alt="Boucles d'oreilles formes géométriques" />
+                    <h3>Formes géométriques</h3>
+                    <p>Légères et élégantes, découpées au laser dans du bois naturel.</p>
+                    <p><strong>Prix :</strong> 25 €</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="pendents">
+            <h2>Pendentifs en bois </h2>
+            <div class="products">
+                <article class="product">
+                    <img src="pendentif1.png" alt="Pendentif arbre de vie" />
+                    <h3>Arbre de vie</h3>
+                    <p>Symbole de vie, délicatement découpé dans du bois naturel.</p>
+                    <p><strong>Prix :</strong> 30 €</p>
+                </article>
+                <article class="product">
+                    <img src="pendentif2.png" alt="Pendentif cercle gravé" />
+                    <h3>Cercle gravé</h3>
+                    <p>Design minimaliste et moderne.</p>
+                    <p><strong>Prix :</strong> 27 €</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="cuir">
+            <h2>Produits en cuir</h2>
+            <div class="products">
+                <article class="product">
+                    <img src="cuir1.jpg" alt="Bracelet en cuir" />
+                    <h3>Bracelet en cuir</h3>
+                    <p>Bracelet fin en cuir véritable, complément parfait.</p>
+                    <p><strong>Prix :</strong> 20 €</p>
+                </article>
+                <article class="product">
+                    <img src="cuir2.jpg" alt="Porte-clés en cuir" />
+                    <h3>Porte-clés</h3>
+                    <p>Accessoire pratique en cuir naturel.</p>
+                    <p><strong>Prix :</strong> 15 €</p>
+                </article>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2024 Bijoux Bois & Cuir - Tous droits réservés</p>
+    </footer>
+
+</body>
+</html>
